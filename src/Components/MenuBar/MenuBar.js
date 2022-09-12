@@ -2,19 +2,22 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import logo from '../../images/main-logo.jpeg';
 import LinkTo from '../../Common/Components/LinkTo';
+import './MenuBar.css';
 
 function MenuBar() {
     return (
         <Navbar bg="light" expand="lg">
             <Container fluid className="container">
                 <Navbar.Brand href="#">
-                    <img src="" alt="" />
+                    <LinkTo to="/">
+                        <img src={logo} alt="" style={{ width: 80 }} />
+                    </LinkTo>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse id="navbarScroll">
-                    <Nav className="ml-auto" style={{ maxHeight: '100%' }} navbarScroll>
+                <Navbar.Collapse className="justify-content-lg-end" id="navbarScroll">
+                    <Nav className="mr-auto" style={{ maxHeight: '100%' }} navbarScroll>
                         <Nav.Link>
                             <LinkTo to="/home">Home</LinkTo>
                         </Nav.Link>

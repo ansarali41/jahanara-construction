@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Common.css';
 
 const LinkTo = ({ to, children }) => {
     const linkStyle = {
@@ -8,7 +9,7 @@ const LinkTo = ({ to, children }) => {
     };
     return (
         <div>
-            <Link to={to} style={linkStyle}>
+            <Link to={to} style={linkStyle} className="links">
                 {children}
             </Link>
         </div>

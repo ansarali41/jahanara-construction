@@ -14,7 +14,7 @@
 .map-divider {
     background: rgb(5, 174, 239);
     background: linear-gradient(180deg, rgba(5, 174, 239, 0.8491990546218487) 0%, rgba(5, 174, 239, 1) 35%);
-    height: 80px;
+    height: 60px;
     width: 100%;
 }
 .google-map-container {
