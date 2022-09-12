@@ -1,19 +1,20 @@
 import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
+import { Triangle } from 'react-loader-spinner';
 import './ContactUs.css';
 
 const ContactUs = () => {
     const [isLoading, setIsLoading] = useState(true);
-    useEffect(() => {
-        setTimeout(() => {
-            setIsLoading(false);
-        }, 1000);
-    }, []);
+    setTimeout(() => {
+        setIsLoading(false);
+    }, 500);
     return (
         <div>
             {isLoading ? (
-                <div>Loading...</div>
+                <div className="d-flex justify-content-center align-items-center mt-5 pt-5">
+                    <Triangle height="80" width="80" color="#f58129" ariaLabel="triangle-loading" wrapperStyle={{}} wrapperClassName="" visible={true} />
+                </div>
             ) : (
                 <div>
                     <div className="google-map-container">
