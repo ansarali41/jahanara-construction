@@ -1,0 +1,22 @@
+.contactUs-container {
+    background: #f58129;
+    color: #fff;
+    padding: 60px 0px;
+}
+.contactUs-title {
+    font-weight: bold;
+    font-size: 45px;
+}
+.icons {
+    font-size: 26px;
+    padding: 5px 15px 5px 0px;
+}
+.map-divider {
+    background: rgb(5, 174, 239);
+    background: linear-gradient(180deg, rgba(5, 174, 239, 0.8491990546218487) 0%, rgba(5, 174, 239, 1) 35%);
+    height: 60px;
+    width: 100%;
+}
+.google-map-container {
+    box-shadow: 0px 65px 109px 36px rgba(0, 0, 0, 0.75);
+}

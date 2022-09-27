@@ -1,5 +1,6 @@
 import React from 'react';
 import review1 from '../../images/0031.jpg';
+import './Review.css';
 
 const Review = () => {
     return (
@@ -10,7 +11,7 @@ const Review = () => {
                     <div style={{ width: '15%', height: 8, background: 'black' }}></div>
                 </div>
             </div>
-            <div>
+            <div className="">
                 <img className="img-fluid p-4" src={review1} alt="" />
                 <img className="img-fluid p-4" src={review1} alt="" />
                 <img className="img-fluid p-4" src={review1} alt="" />
