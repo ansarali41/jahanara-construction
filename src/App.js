@@ -6,6 +6,7 @@ import Gallery from './Components/Gallery/Gallery';
 import Review from './Components/Review/Review';
 import './App.css';
 import Footer from './Components/Footer/Footer';
+import QualityPlan from './Components/QualityPlan/QualityPlan';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     {/* <Route path="/contact-us" element={<ContactUs />} /> */}
                     <Route path="/gallery" element={<Gallery />} />
                     <Route path="/review" element={<Review />} />
+                    <Route path="/qualityPlan" element={<QualityPlan />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>

@@ -12,15 +12,15 @@ const Footer = () => {
                     <div style={{ height: '2px', background: '#fff', margin: '15px 0px', marginRight: 62 }} />
                     <div className="d-flex align-items-center">
                         <FontAwesomeIcon icon={faPhone} className="icons" />
-                        <h4>+880 1701-361836</h4>
+                        <h5>+880 1701-361836</h5>
                     </div>
                     <div className="d-flex align-items-center">
                         <FontAwesomeIcon icon={faEnvelope} className="icons" />
-                        <h4>jahanara.group7@gmail.com</h4>
+                        <h5>jahanara.group7@gmail.com</h5>
                     </div>
                     <div className="d-flex align-items-center">
                         <FontAwesomeIcon icon={faLocationDot} className="icons" />
-                        <h4>H#1352, Adjacent of Poniout bypass Road Brahmanbaria</h4>
+                        <h5>H#1352, Adjacent of Poniout bypass Road Brahmanbaria</h5>
                     </div>
                 </div>
                 <div>

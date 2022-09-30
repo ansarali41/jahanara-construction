@@ -1,14 +1,14 @@
 .contactUs-container {
     background: #f58129;
     color: #fff;
-    padding: 60px 0px;
+    padding: 40px 0px;
 }
 .contactUs-title {
     font-weight: bold;
-    font-size: 45px;
+    font-size: 32px;
 }
 .icons {
-    font-size: 26px;
+    font-size: 20px;
     padding: 5px 15px 5px 0px;
 }
 .map-divider {

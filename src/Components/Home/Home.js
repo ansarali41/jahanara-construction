@@ -11,6 +11,7 @@ import './Home.css';
 // import NewStep from './HomeComponents/NewStep';
 // import OurOrganogram from './HomeComponents/OurOrganogram';
 import Machinery from './HomeComponents/Machinery';
+import Machines from '../Machines/Machines';
 
 const Home = () => {
     return (
@@ -28,6 +29,7 @@ const Home = () => {
             <NewStep />
             <OurOrganogram />*/}
             <Machinery />
+            <Machines />
         </div>
     );
 };
