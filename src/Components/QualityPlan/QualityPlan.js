@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import MyDivider from '../../Common/Components/MyDivider';
 import quality_icon from '../../images/quality_icon.png';
+import Planning from '../Planning/Planning';
 // database
 const qualityData = [
     { id: 1, image: quality_icon },
@@ -46,8 +47,11 @@ const QualityPlan = () => {
             color: '#F58128',
         },
     };
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
-        <div className="container">
+        <div className="container mt-5 pt-5 bg-light">
             <div className="d-flex justify-content-center">
                 <div className="text-center">
                     <h1>Quality Plan</h1>
@@ -99,6 +103,9 @@ const QualityPlan = () => {
                         </ul>
                     </div>
                 </div>
+
+                {/* added */}
+                <Planning />
 
                 {/* details */}
                 <div className="m-5 px-5">

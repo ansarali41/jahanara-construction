@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import './Gallery.css';
 
 const Gallery = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
-        <div className="container">
+        <div className="container mt-5 pt-4 bg-light">
             {/* title section */}
             <div className="text-center pt-4">
                 <h1>Photos Gallery</h1>

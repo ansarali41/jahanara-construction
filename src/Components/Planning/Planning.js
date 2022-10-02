@@ -1,7 +1,8 @@
-import React from 'react';
-import PlanningCard from '../../../Common/PlanningCard';
-import planningImg from '../../../images/planning.jpg';
-import planningIcon from '../../../images/planning-icon.png';
+import React, { useEffect } from 'react';
+import PlanningCard from '../../Common/PlanningCard';
+import planningImg from '../../images/planning.jpg';
+import planningIcon from '../../images/planning-icon.png';
+
 // database
 const data = [
     { id: 2, description: 'Build effective planning to aim;' },
@@ -16,11 +17,13 @@ const Planning = () => {
             width: 110,
         },
     };
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
-        <div className="py-5">
+        <div className="py-5 container bg-light mt-5">
             {/* 1st row */}
-            <div className="row">
+            <div className="row d-flex justify-content-center">
                 {/* img section */}
                 <div className="col-md-6">
                     <img src={planningImg} alt="" className="img-fluid" />
@@ -47,7 +50,7 @@ const Planning = () => {
             <div className="row d-flex justify-content-md-center justify-content-center">
                 {data.map(function (card) {
                     return (
-                        <div className="col-7 col-sm-6 col-md-4 col-lg-3">
+                        <div className="col-7 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
                             <PlanningCard id={card.id} description={card.description} />
                         </div>
                     );

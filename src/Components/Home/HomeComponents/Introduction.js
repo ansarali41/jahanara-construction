@@ -8,17 +8,17 @@ const Introduction = () => {
             wordSpacing: 5,
         },
         lightOnIcon: {
-            maxWidth: 100,
+            maxWidth: 70,
             width: '100%',
             marginTop: '-15px',
         },
         title: {
-            fontSize: 60,
+            fontSize: 40,
         },
     };
     return (
         <div className="row ">
-            <div className="col-md-6 py-5">
+            <div className="col-6 col-md-6 py-5">
                 <div className="d-flex align-items-center pb-2">
                     <img src={lightOn} alt="" style={introStyle.lightOnIcon} />
                     <h1 style={introStyle.title}>Introduction</h1>
@@ -41,7 +41,7 @@ const Introduction = () => {
                     </p>
                 </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-6 col-md-6">
                 <img src={welcomeSideImg} alt="" className="img-fluid" />
             </div>
         </div>

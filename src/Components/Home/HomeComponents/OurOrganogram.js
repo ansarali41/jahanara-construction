@@ -9,14 +9,18 @@ const OurOrganogram = () => {
             marginTop: '-8px',
         },
         title: {
-            fontSize: 50,
+            fontSize: 40,
         },
         para: {
             maxWidth: 850,
         },
+        photo: {
+            width: '100%',
+            maxWidth: 750,
+        },
     };
     return (
-        <div className="my-5">
+        <div className="mb-5 mt-3">
             <div className="d-flex justify-content-center align-items-center">
                 <img src={icon} alt="" className="img-fluid" style={Style.icon} />
                 <h1 style={Style.title}>Our Organogram</h1>
@@ -28,7 +32,7 @@ const OurOrganogram = () => {
                 </p>
             </div>
             <div className="d-flex justify-content-center">
-                <img src={orgImg} alt="" className="img-fluid w-75" />
+                <img src={orgImg} alt="" className="img-fluid" style={Style.photo} />
             </div>
         </div>
     );

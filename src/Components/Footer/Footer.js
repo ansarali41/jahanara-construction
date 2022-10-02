@@ -6,7 +6,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className="contactUs-container">
-            <div className="d-flex justify-content-between container">
+            <div className="d-flex justify-content-between container py-5">
                 <div className="container">
                     <h1 className="contactUs-title">Contact Us</h1>
                     <div style={{ height: '2px', background: '#fff', margin: '15px 0px', marginRight: 62 }} />
@@ -36,7 +36,7 @@ const Footer = () => {
                     ></iframe>
                 </div>
             </div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center copy-right-text pt-2">
                 <p>
                     <small>All Rights Reserved ©{new Date().getFullYear()} AHIL TRADE INTERNATIONAL. </small>
                 </p>

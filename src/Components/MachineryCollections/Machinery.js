@@ -1,6 +1,6 @@
 import React from 'react';
-import MyDivider from '../../../Common/Components/MyDivider';
-import machinery_collections from '../../../images/machinery_collections.png';
+import MyDivider from '../../Common/Components/MyDivider';
+import machinery_collections from '../../images/machinery_collections.png';
 
 const Machinery = () => {
     const Style = {

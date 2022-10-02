@@ -1,7 +1,7 @@
 .contactUs-container {
     background: #f58129;
     color: #fff;
-    padding: 40px 0px;
+    /* padding: 40px 0px; */
 }
 .contactUs-title {
     font-weight: bold;
@@ -19,4 +19,7 @@
 }
 .google-map-container {
     box-shadow: 0px 65px 109px 36px rgba(0, 0, 0, 0.75);
+}
+.copy-right-text {
+    background: #f57615;
 }

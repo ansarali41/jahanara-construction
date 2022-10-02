@@ -22,7 +22,7 @@ const Culture = () => {
         },
     };
     return (
-        <div style={Style.main} className="d-flex justify-content-center align-items-center text-white py-5">
+        <div style={Style.main} className="d-flex justify-content-center align-items-center text-white my-5">
             <div>
                 <div style={Style.title}>
                     <h1>Culture</h1>

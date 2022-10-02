@@ -8,7 +8,7 @@ import './MenuBar.css';
 
 function MenuBar() {
     return (
-        <Navbar bg="bg-white" expand="lg" className="shadow-sm bg-body">
+        <Navbar bg="bg-white" expand="lg" className="shadow-sm bg-body fixed-top">
             <Container fluid className="container">
                 {/* <Navbar.Brand href="#"> */}
                 <LinkTo to="/">
@@ -28,14 +28,15 @@ function MenuBar() {
                             <LinkTo to="/qualityPlan">Quality Plan</LinkTo>
                         </Nav.Link>
                         <Nav.Link>
-                            <LinkTo to="/review">Review</LinkTo>
-                        </Nav.Link>
-                        <Nav.Link>
                             <LinkTo to="/gallery">Gallery</LinkTo>
                         </Nav.Link>
                         <Nav.Link>
-                            <LinkTo to="/contact-us">Contact Us</LinkTo>
+                            <LinkTo to="/machinery-collections">Machineries</LinkTo>
                         </Nav.Link>
+                        <Nav.Link>
+                            <LinkTo to="/partner">Partner</LinkTo>
+                        </Nav.Link>
+
                         {/* <NavDropdown title="Pages" id="navbarScrollingDropdown">
                             <NavDropdown.Item>
                                 <LinkTo to="page-1">Page 1</LinkTo>

@@ -1,35 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Banner from './HomeComponents/Banner';
 import './Home.css';
-// import Welcome from './HomeComponents/Welcome';
-// import Introduction from './HomeComponents/Introduction';
-// import MissionVisions from './HomeComponents/MissionVisions';
-// import Environment from './HomeComponents/Environment';
-// import Planning from './HomeComponents/Planning';
-// import Commitments from './HomeComponents/Commitments';
-// import Culture from './HomeComponents/Culture';
+import Welcome from './HomeComponents/Welcome';
+import MissionVisions from './HomeComponents/MissionVisions';
+import Review from '../Review/Review';
+import Culture from './HomeComponents/Culture';
+import Commitments from './HomeComponents/Commitments';
 // import NewStep from './HomeComponents/NewStep';
-// import OurOrganogram from './HomeComponents/OurOrganogram';
-import Machinery from './HomeComponents/Machinery';
-import Machines from '../Machines/Machines';
 
 const Home = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
-        <div className="container">
+        <div className="container mt-5 pt-4">
             <Banner />
-            {/* <h1 className="header-title display-3">M/S JAHANARA</h1>
-            <p className="display-5">CONSTRUCTION & SUPLLIER</p> */}
-            {/* <Welcome />
-            <Introduction />
+            <Welcome />
             <MissionVisions />
-            <Environment />
-            <Planning /> 
-            <Commitments />
             <Culture />
-            <NewStep />
-            <OurOrganogram />*/}
-            <Machinery />
-            <Machines />
+            <Commitments />
+            <Review />
+            {/*
+            <NewStep />*/}
         </div>
     );
 };

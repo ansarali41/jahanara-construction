@@ -1,6 +1,6 @@
 import React from 'react';
 import MyDivider from '../../../Common/Components/MyDivider';
-import missionBanner from '../../../images/mission_banner.jpg';
+// import missionBanner from '../../../images/mission_banner.jpg';
 import missionIcon from '../../../images/mission_icon.png';
 import visionIcon from '../../../images/vision_icon.png';
 
@@ -11,12 +11,12 @@ const MissionVisions = () => {
         },
     };
     return (
-        <div className="py-5">
+        <div className="py-5 pt-5 px-2 bg-light ">
             {/* Mission section */}
-            <div>
+            {/* <div>
                 <img src={missionBanner} alt="" className="img-fluid" />
-            </div>
-            <div className="d-flex justify-content-center py-5">
+            </div> */}
+            <div className="d-flex justify-content-center pb-3 pt-1">
                 <div className="d-flex align-items-center">
                     <img src={missionIcon} alt="" className="img-fluid w-25" style={missionStyle.icon} />
                     <h1>Mission</h1>
@@ -41,8 +41,8 @@ const MissionVisions = () => {
                 </p>
             </div>
             {/* Vision section */}
-            <div className="py-4">
-                <div className="d-flex justify-content-center py-5">
+            <div className="py-4 pb-1">
+                <div className="d-flex justify-content-center py-3">
                     <div className="d-flex align-items-center">
                         <img src={visionIcon} alt="" className="img-fluid w-25" style={missionStyle.icon} />
                         <h1>Visions</h1>

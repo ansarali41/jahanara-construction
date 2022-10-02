@@ -1,5 +1,5 @@
 import React from 'react';
-import CompanyLogo from '../../../Common/Components/CompanyLogo';
+// import companyImg from '../../../images/company-logo.jpg';
 import ProprietorImg from '../../../images/Proprietor_img.png';
 
 const Welcome = () => {
@@ -17,23 +17,26 @@ const Welcome = () => {
         wordSpace: {
             wordSpacing: 5,
         },
+        paragraphContainer: {},
     };
     return (
         <div>
+            {/* <CompanyLogo /> */}
             <div className="d-flex justify-content-between align-items-center py-5 pb-1">
                 <div>
                     <h1 style={welcomeStyle.textColor}>Welcome</h1>
                     <h2 className="">Words From Our Founder</h2>
                     {/* divider */}
                     <div className="d-flex mt-2">
-                        <div style={{ width: '15%', height: 8, background: 'rgb(5, 174, 239)' }}></div>
+                        <div style={{ width: '15%', height: 8, background: 'rgb(5, 174, 239)' }} />
                     </div>
                 </div>
-                <CompanyLogo />
+
+                <img src={ProprietorImg} className="img-fluid w-50" alt="" />
             </div>
             {/* Proprietor section */}
-            <img src={ProprietorImg} className="w-100" alt="" />
-            <div>
+            {/*  <img src={companyImg} className="img-fluid" alt="" style={{ width: 100 }} /> */}
+            <div style={welcomeStyle.paragraphContainer}>
                 <p className="fs-5 lh-lg pb-5 mb-5 lead" style={welcomeStyle.wordSpace}>
                     M/S Jahanara Construction & Supllier. has established the tradition of 'Best management practices ' in the construction industry through integrity,
                     trustworthiness and high-quality work. In its business practices, M/s Jahanara Construction & Supllier. has consistently demonstrated two key features;
