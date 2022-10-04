@@ -10,21 +10,21 @@ const Culture = () => {
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
             width: '100%',
-            height: '600px',
+            height: '650px',
         },
         paragraph: {
-            margin: '15px 100px 100px 100px',
+            margin: '0 auto',
             background: 'linear-gradient(0deg, rgba(53,53,53,0.8491990546218487) 0%, rgba(35,35,35,0.5158657212885154) 100%)',
             borderRadius: 10,
         },
         title: {
-            marginLeft: '100px',
+            margin: '0 auto',
         },
     };
     return (
         <div style={Style.main} className="d-flex justify-content-center align-items-center text-white my-5">
-            <div>
-                <div style={Style.title}>
+            <div className="mx-3">
+                <div style={Style.title} className="mb-3">
                     <h1>Culture</h1>
                     <MyDivider width="80px" background="white" />
                 </div>

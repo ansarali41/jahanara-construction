@@ -21,9 +21,7 @@ function MenuBar() {
                         <Nav.Link>
                             <LinkTo to="/home">Home</LinkTo>
                         </Nav.Link>
-                        <Nav.Link>
-                            <LinkTo to="/about">About</LinkTo>
-                        </Nav.Link>
+
                         <Nav.Link>
                             <LinkTo to="/qualityPlan">Quality Plan</LinkTo>
                         </Nav.Link>
@@ -33,9 +31,9 @@ function MenuBar() {
                         <Nav.Link>
                             <LinkTo to="/machinery-collections">Machineries</LinkTo>
                         </Nav.Link>
-                        <Nav.Link>
+                        {/* <Nav.Link>
                             <LinkTo to="/partner">Partner</LinkTo>
-                        </Nav.Link>
+                        </Nav.Link> */}
 
                         {/* <NavDropdown title="Pages" id="navbarScrollingDropdown">
                             <NavDropdown.Item>

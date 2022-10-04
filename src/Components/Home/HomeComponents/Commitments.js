@@ -11,14 +11,14 @@ const Commitments = () => {
             fontSize: 22,
         },
         logo: {
-            maxWidth: 200,
+            maxWidth: 180,
         },
         businessText: {
             fontWeight: 400,
         },
     };
     return (
-        <div className="my-5">
+        <div className="my-5 p-4 bg-light">
             <div className="d-flex justify-content-center">
                 <img src={commitmentImg} alt="" className="img-fluid" style={Style.logo} />
             </div>

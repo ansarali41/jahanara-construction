@@ -5,19 +5,16 @@ import machinery_collections from '../../images/machinery_collections.png';
 const Machinery = () => {
     const Style = {
         title: {
-            fontSize: 50,
+            fontSize: 40,
         },
     };
     return (
         <div className="my-5">
             <div className="text-center">
-                <h1 style={Style.title}>
-                    Our Machinery <br />
-                    Collections
-                </h1>
+                <h1 style={Style.title}>Our Machinery Collections</h1>
             </div>
             <div className="d-flex justify-content-center">
-                <MyDivider width={65} height="10px" />
+                <MyDivider width={100} height="10px" />
             </div>
             <div className="d-flex justify-content-center mt-3">
                 <img src={machinery_collections} alt="" className="img-fluid w-50" />

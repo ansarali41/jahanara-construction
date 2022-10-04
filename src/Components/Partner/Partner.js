@@ -65,13 +65,13 @@ const Partner = () => {
                     Afcons is a subsidiary of the Indian business conglomerate Shapoorji Pallonji Group who acquired the company in 2000. In 2006, there was widespread speculation
                     that Afcons would go public in an IPO but the company did not go through with it
                 </p>
-                <div className="lead">
+                <p className="lead">
                     <span style={{ color: 'red' }}>The Shapoorji Pallonji Group (SP Group) </span>
                     was established in 1865 in India. A diversified institution, the SP Group has a leading presence in Engineering & Construction, Infrastructure, Real Estate,
                     Water, Energy and Financial Services sectors across the globe. It has a strong employee base of over 70,000, and, delivers end-to-end solutions across 70-plus
                     countries. The group companies build mega-structures, develop iconic landmarks, drive innovative technologies in water management, renewable energy, oil & gas
                     and power, with a focus on good governance, and, sustainable development, to engineer a better planet.
-                </div>
+                </p>
             </div>
         </div>
     );

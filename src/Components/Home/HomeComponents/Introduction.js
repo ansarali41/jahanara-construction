@@ -1,19 +1,22 @@
 import React from 'react';
 import welcomeSideImg from '../../../images/welcome_side_img.jpg';
 import lightOn from '../../../images/light_on_icon.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRightLong } from '@fortawesome/free-solid-svg-icons';
+import LinkTo from '../../../Common/Components/LinkTo';
+import { useLocation } from 'react-router-dom';
 
 const Introduction = () => {
+    let location = useLocation();
+    console.log(location.pathname);
     const introStyle = {
         wordSpace: {
             wordSpacing: 5,
         },
         lightOnIcon: {
-            maxWidth: 70,
+            maxWidth: 60,
             width: '100%',
-            marginTop: '-15px',
-        },
-        title: {
-            fontSize: 40,
+            marginTop: '-10px',
         },
     };
     return (
@@ -21,7 +24,7 @@ const Introduction = () => {
             <div className="col-6 col-md-6 py-5">
                 <div className="d-flex align-items-center pb-2">
                     <img src={lightOn} alt="" style={introStyle.lightOnIcon} />
-                    <h1 style={introStyle.title}>Introduction</h1>
+                    <h1>Introduction</h1>
                 </div>
                 <div className="fs-5 lh-lg pb-5 mb-5">
                     <p style={introStyle.wordSpace} className="lead">
@@ -39,6 +42,14 @@ const Introduction = () => {
                         We believe in putting our customers first and that is what our team strives to achieve. We can proudly say that we have built a very strong and well-managed
                         team by going through an intense selection process who are confident to achieve our goals and objectives with full accuracy.
                     </p>
+                    {location.pathname === '/about' ? null : (
+                        <h5 className="font-weight-bold">
+                            <LinkTo to="/about">
+                                <FontAwesomeIcon icon={faRightLong} style={{ marginRight: 10 }} />
+                                LEARN MORE ABOUT US
+                            </LinkTo>
+                        </h5>
+                    )}
                 </div>
             </div>
             <div className="col-6 col-md-6">

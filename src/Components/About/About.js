@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Environment from '../Environment/Environment';
+// import Environment from '../Environment/Environment';
 import Introduction from '../Home/HomeComponents/Introduction';
 import OurOrganogram from '../Home/HomeComponents/OurOrganogram';
 
@@ -11,7 +11,7 @@ const About = () => {
         <div className="container mt-5 pt-5">
             <OurOrganogram />
             <Introduction />
-            <Environment />
+            {/* <Environment /> */}
         </div>
     );
 };

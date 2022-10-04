@@ -6,6 +6,8 @@ import MissionVisions from './HomeComponents/MissionVisions';
 import Review from '../Review/Review';
 import Culture from './HomeComponents/Culture';
 import Commitments from './HomeComponents/Commitments';
+import PartnerHome from './HomeComponents/PartnerHome';
+import HomeAbout from './HomeComponents/HomeAbout';
 // import NewStep from './HomeComponents/NewStep';
 
 const Home = () => {
@@ -13,12 +15,14 @@ const Home = () => {
         window.scrollTo(0, 0);
     }, []);
     return (
-        <div className="container mt-5 pt-4">
+        <div className="container mt-5 pt-3">
             <Banner />
             <Welcome />
             <MissionVisions />
             <Culture />
+            <HomeAbout />
             <Commitments />
+            <PartnerHome />
             <Review />
             {/*
             <NewStep />*/}
