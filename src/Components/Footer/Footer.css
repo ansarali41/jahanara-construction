@@ -1,8 +1,8 @@
 .contactUs-container {
     background: #f58129;
     color: #fff;
-    padding-top: 60px;
-    clip-path: polygon(50% 18%, 100% 0, 100% 100%, 0 100%, 0 0);
+    /* padding-top: 60px;
+    clip-path: polygon(50% 18%, 100% 0, 100% 100%, 0 100%, 0 0); */
 }
 .contactUs-title {
     font-weight: bold;
