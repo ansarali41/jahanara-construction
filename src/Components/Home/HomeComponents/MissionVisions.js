@@ -24,7 +24,7 @@ const MissionVisions = () => {
             </div>
             <div>
                 <div className="pb-3">
-                    <MyDivider width="8%" background="rgb(5, 174, 239)" height="12px" />
+                    <MyDivider width="80px" background="rgb(5, 174, 239)" height="10px" />
                 </div>
                 <p className="lead">
                     Dedication to providing quality construction, SUPPLIES and management services to our customers. We will strive to implement a long term relationship with our
@@ -32,7 +32,7 @@ const MissionVisions = () => {
                     them in the quality improvement process to Ensure responsiveness and cost effective work execution
                 </p>
                 <div className="py-3">
-                    <MyDivider width="8%" background="rgb(5, 174, 239)" height="12px" />
+                    <MyDivider width="80px" background="rgb(5, 174, 239)" height="10px" />
                 </div>
                 <p className="lead">
                     Our success is driven by some of the most advanced facilities for the corporate, Industrial and government clients. More and more of our clients are turning to
@@ -49,7 +49,7 @@ const MissionVisions = () => {
                     </div>
                 </div>
                 <div className="pb-3">
-                    <MyDivider width="8%" background="rgb(5, 174, 239)" height="12px" />
+                    <MyDivider width="80px" background="rgb(5, 174, 239)" height="10px" />
                 </div>
                 <p className="lead">
                     To become the leading construction firm, while delivering projects that consistently exceed international standards and provide exceptional customer

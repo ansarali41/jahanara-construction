@@ -1,6 +1,7 @@
 import React from 'react';
 import MyDivider from '../../../Common/Components/MyDivider';
-import cultureBanner from '../../../images/culture-banner.jpg';
+import cultureBanner from '../../../images/image/home2.JPG';
+import '../Home.css';
 
 const Culture = () => {
     const Style = {
@@ -10,7 +11,8 @@ const Culture = () => {
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
             width: '100%',
-            height: '650px',
+            height: '100%',
+            maxHeight: 680,
         },
         paragraph: {
             margin: '0 auto',
@@ -22,14 +24,14 @@ const Culture = () => {
         },
     };
     return (
-        <div style={Style.main} className="d-flex justify-content-center align-items-center text-white my-5">
+        <div style={Style.main} className="d-flex justify-content-center align-items-center text-white my-5 main-container">
             <div className="mx-3">
                 <div style={Style.title} className="mb-3">
-                    <h1>Culture</h1>
+                    <h1 className="culture-title">Culture</h1>
                     <MyDivider width="80px" background="white" />
                 </div>
                 <div style={Style.paragraph}>
-                    <p className="shadow p-4 rounded lead">
+                    <p className="shadow rounded lead culture-text">
                         Our culture begins with our people; we like to think of ourselves as one big family working together toward one goal - Building Excellence. Our company
                         culture is a mix of hard work, fun, mutual respect and a strong commitment to our clients and community. There is close friendship among the employees of
                         this family-oriented company that adds value to their working and personal lives. We strive to maintain an open, family-like atmosphere in our offices and

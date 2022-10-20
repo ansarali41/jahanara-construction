@@ -24,3 +24,16 @@
 .copy-right-text {
     background: #f57615;
 }
+
+@media (max-width: 767px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+    .contactUs-title {
+        font-size: 24px;
+    }
+    .footer-items {
+        font-size: 16px;
+    }
+    .bottom-text {
+        font-size: 14px;
+    }
+}

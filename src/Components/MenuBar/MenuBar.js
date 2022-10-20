@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from '../../images/main-logo.jpeg';
+import logo from '../../images/image/main-logo.jpeg';
 import LinkTo from '../../Common/Components/LinkTo';
 import './MenuBar.css';
 
@@ -12,7 +12,7 @@ function MenuBar() {
             <Container fluid className="container">
                 {/* <Navbar.Brand href="#"> */}
                 <LinkTo to="/">
-                    <img src={logo} alt="" style={{ width: 80 }} />
+                    <img src={logo} alt="" style={{ width: 70 }} />
                 </LinkTo>
                 {/* </Navbar.Brand> */}
                 <Navbar.Toggle aria-controls="navbarScroll" />

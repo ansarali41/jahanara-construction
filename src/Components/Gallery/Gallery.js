@@ -1,6 +1,49 @@
 import React, { useEffect } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
+import A from '../../images/gallery/A.JPG';
+import B from '../../images/gallery/B.JPG';
+import C from '../../images/gallery/C.JPG';
+import D from '../../images/gallery/D.JPG';
+import E from '../../images/gallery/E.JPG';
+import F from '../../images/gallery/F.JPG';
+import G from '../../images/gallery/G.JPG';
+// import W from '../../images/gallery/W.JPG';
+import Z from '../../images/gallery/Z.JPG';
 import './Gallery.css';
+const imgData = [
+    {
+        id: 1,
+        image: A,
+    },
+    {
+        id: 2,
+        image: B,
+    },
+    {
+        id: 3,
+        image: C,
+    },
+    {
+        id: 4,
+        image: D,
+    },
+    {
+        id: 5,
+        image: E,
+    },
+    {
+        id: 6,
+        image: F,
+    },
+    {
+        id: 7,
+        image: G,
+    },
+    {
+        id: 8,
+        image: Z,
+    },
+];
 
 const Gallery = () => {
     useEffect(() => {
@@ -17,16 +60,13 @@ const Gallery = () => {
             </div>
             {/* Gallery section */}
             <Row xs={1} md={2} className="g-4 p-5 m-5 mt-0">
-                {Array.from({ length: 8 }).map((_, idx) => (
-                    <Col>
+                {imgData.map(el => (
+                    <Col key={el.id}>
                         <Card>
-                            <Card.Img
-                                variant="top"
-                                src="https://images.unsplash.com/photo-1617870757002-5c84bb82a755?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                            />
-                            <Card.Body style={{ background: 'rgb(5, 174, 239)' }}>
+                            <Card.Img variant="top" src={el.image} />
+                            {/* <Card.Body style={{ background: 'rgb(5, 174, 239)' }}>
                                 <Card.Title style={{ color: 'white', fontSize: 26, fontWeight: 'bold', textAlign: 'center' }}>Card title</Card.Title>
-                            </Card.Body>
+                            </Card.Body> */}
                         </Card>
                     </Col>
                 ))}

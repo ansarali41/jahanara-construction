@@ -1,3 +1,49 @@
 .header-title {
     font-weight: bold !important;
 }
+/* banner css */
+.banner-img {
+    height: 580px;
+}
+@media (max-width: 481px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+    .banner-img {
+        height: 320px;
+    }
+}
+
+@media (max-width: 961px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .banner-img {
+        height: 380px;
+    }
+}
+
+/* culture css */
+.culture-text {
+    padding: 25px;
+}
+.main-container {
+    padding: 50px;
+}
+/* Organogram css*/
+.title-Organogram {
+    font-size: 40px;
+}
+
+@media (max-width: 767px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+    .culture-text {
+        font-size: 14px !important;
+    }
+    .culture-title {
+        font-size: 24px !important;
+    }
+    .main-container {
+        padding: 5px;
+    }
+    /*  */
+    .title-Organogram {
+        font-size: 26px;
+    }
+}

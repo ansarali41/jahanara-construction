@@ -28,16 +28,15 @@ const Welcome = () => {
                     <h2 className="">Words From Our Founder</h2>
                     {/* divider */}
                     <div className="d-flex mt-2">
-                        <div style={{ width: '15%', height: 8, background: 'rgb(5, 174, 239)' }} />
+                        <div style={{ width: '80px', height: 8, background: 'rgb(5, 174, 239)' }} />
                     </div>
                 </div>
 
                 <img src={ProprietorImg} className="img-fluid w-50" alt="" />
             </div>
-            {/* Proprietor section */}
-            {/*  <img src={companyImg} className="img-fluid" alt="" style={{ width: 100 }} /> */}
+
             <div style={welcomeStyle.paragraphContainer}>
-                <p className="fs-5 lh-lg pb-5 mb-5 lead" style={welcomeStyle.wordSpace}>
+                <p className=" lh-lg pb-5 mb-5 lead" style={welcomeStyle.wordSpace}>
                     M/S Jahanara Construction & Supllier. has established the tradition of 'Best management practices ' in the construction industry through integrity,
                     trustworthiness and high-quality work. In its business practices, M/s Jahanara Construction & Supllier. has consistently demonstrated two key features;
                     innovation and sustainability. The strength of M/s Jahanara Construction & Supllier. lies in its long-standing experience, the higher level of professionalism,

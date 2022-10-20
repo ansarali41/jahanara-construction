@@ -40,7 +40,7 @@ const PartnerHome = () => {
             <div className="row d-flex justify-content-center align-items-center">
                 {/* img section */}
                 <div className="col-12 col-md-4">
-                    <div className="text-center" style={Style.document}>
+                    <div className="text-center mb-3" style={Style.document}>
                         <div>
                             <img src={partners} alt="" className="img-fluid" style={Style.partnersImg} />
                         </div>
