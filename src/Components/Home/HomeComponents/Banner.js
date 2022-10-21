@@ -25,10 +25,10 @@ const Banner = () => {
         <div className="mt-2">
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
-                    <img className="d-block w-100 banner-img " src={banner} alt="First slide" />
+                    <img className="d-block w-100 banner-img " src={home2} alt="First slide" />
                     <Carousel.Caption>
                         <div style={Style.bannerStyle} className="d-flex align-items-end justify-content-center">
-                            <div className="text-warning" style={Style.paragraphContainer}>
+                            <div className="text-white" style={Style.paragraphContainer}>
                                 <h1 className="header-title">M/S JAHANARA</h1>
                                 <p className="font-weight-bold">CONSTRUCTION & SUPLLIER</p>
                                 <div className="d-flex justify-content-center">
@@ -58,7 +58,7 @@ const Banner = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img className="d-block w-100 banner-img " src={home2} alt="Second slide" />
+                    <img className="d-block w-100 banner-img " src={banner} alt="Second slide" />
 
                     <Carousel.Caption>
                         <div style={Style.bannerStyle} className="d-flex align-items-end justify-content-center">
