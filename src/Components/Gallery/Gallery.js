@@ -7,6 +7,7 @@ import D from '../../images/gallery/D.jpg';
 import E from '../../images/gallery/E.jpg';
 import F from '../../images/gallery/F.jpg';
 import G from '../../images/gallery/G.jpg';
+// import W from '../../images/gallery/W.JPG';
 import Z from '../../images/gallery/Z.JPG';
 import './Gallery.css';
 const imgData = [
@@ -16,7 +17,7 @@ const imgData = [
     },
     {
         id: 2,
-        image: D,
+        image: G,
     },
     {
         id: 3,
