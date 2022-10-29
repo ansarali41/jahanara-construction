@@ -1,7 +1,7 @@
 import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
-import Ex130 from '../../images/machine/Ex130.jpg';
+import Ex130 from '../../images/machine/Ex130.JPG';
 import A from '../../images/machine/A.jpg';
 import B from '../../images/machine/B.jpg';
 import C from '../../images/machine/C.jpg';
