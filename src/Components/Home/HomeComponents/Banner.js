@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import banner from '../../../images/image/home.JPG';
-import home2 from '../../../images/image/home2.jpg';
+import home2 from '../../../images/image/home2.JPG';
 import home3 from '../../../images/image/home3.JPG';
 import home4 from '../../../images/image/home4.JPG';
 import home5 from '../../../images/image/home5.JPG';

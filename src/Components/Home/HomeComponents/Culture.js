@@ -1,6 +1,6 @@
 import React from 'react';
 import MyDivider from '../../../Common/Components/MyDivider';
-import cultureBanner from '../../../images/image/home2.jpg';
+import cultureBanner from '../../../images/image/home2.JPG';
 import '../Home.css';
 
 const Culture = () => {
