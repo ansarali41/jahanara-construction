@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import A from '../../images/gallery/A.JPG';
-import B from '../../images/gallery/B.jpg';
+// import B from '../../images/gallery/B.jpg';
 import C from '../../images/gallery/C.JPG';
 import D from '../../images/gallery/D.jpg';
 import E from '../../images/gallery/E.jpg';
@@ -16,7 +16,7 @@ const imgData = [
     },
     {
         id: 2,
-        image: B,
+        image: D,
     },
     {
         id: 3,
