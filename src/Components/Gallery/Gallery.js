@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import A from '../../images/gallery/A.JPG';
-// import B from '../../images/gallery/B.jpg';
+import B from '../../images/gallery/B.JPG';
 import C from '../../images/gallery/C.JPG';
-import D from '../../images/gallery/D.jpg';
-import E from '../../images/gallery/E.jpg';
-import F from '../../images/gallery/F.jpg';
-import G from '../../images/gallery/G.jpg';
+import D from '../../images/gallery/D.JPG';
+import E from '../../images/gallery/E.JPG';
+import F from '../../images/gallery/F.JPG';
+import G from '../../images/gallery/G.JPG';
 // import W from '../../images/gallery/W.JPG';
 import Z from '../../images/gallery/Z.JPG';
 import './Gallery.css';
@@ -17,7 +17,7 @@ const imgData = [
     },
     {
         id: 2,
-        image: G,
+        image: B,
     },
     {
         id: 3,
