@@ -19,11 +19,11 @@ const Introduction = () => {
     return (
         <div className="row mt-5 pt-5">
             {/* image section */}
-            <div className="col-md-6">
+            <div className="col-sm-12 col-md-12 col-lg-6">
                 <img src={welcomeSideImg} alt="" className="img-fluid" />
             </div>
             {/* text section */}
-            <div className="col-md-6">
+            <div className="col-sm-12 col-md-12 col-lg-6">
                 <div className="d-flex align-items-center py-3">
                     <img src={lightOn} alt="" style={introStyle.lightOnIcon} />
                     <h1>Introduction</h1>

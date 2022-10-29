@@ -1,15 +1,15 @@
 import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
-import Ex130 from '../../images/machine/Ex130.JPG';
-import A from '../../images/machine/A.JPG';
+import Ex130 from '../../images/machine/Ex130.jpg';
+import A from '../../images/machine/A.jpg';
 import B from '../../images/machine/B.jpg';
 import C from '../../images/machine/C.jpg';
 import D from '../../images/machine/D.jpg';
 import E from '../../images/machine/E.jpg';
 import W from '../../images/machine/W.jpg';
 import Z from '../../images/machine/Z.jpg';
-import HAMM from '../../images/machine/HAMM.JPG';
+import HAMM from '../../images/machine/HAMM.jpg';
 
 const Machines = () => {
     return (

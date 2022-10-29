@@ -1,1 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.heading-title {
+    margin-bottom: -5px;
+    color: #f58128;
+    font-family: 'Ubuntu', sans-serif;
+}

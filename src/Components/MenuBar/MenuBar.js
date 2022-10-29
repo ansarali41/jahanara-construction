@@ -14,6 +14,11 @@ function MenuBar() {
                 <LinkTo to="/">
                     <img src={logo} alt="" style={{ width: 70 }} />
                 </LinkTo>
+
+                <h6 className="text-center px-2 heading-title">
+                    M/S JAHANARA CONSTRUCTION <br /> & SUPLLIER
+                </h6>
+
                 {/* </Navbar.Brand> */}
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse className="justify-content-lg-end" id="navbarScroll">

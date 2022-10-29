@@ -6,8 +6,8 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className="contactUs-container">
-            <div className="row p-5">
-                <div className="col-md-8 ">
+            <div className="row p-5 w-100">
+                <div className="col-md-8">
                     <div className="container">
                         <h1 className="contactUs-title">Contact Us</h1>
                         <div style={{ height: '2px', background: '#fff', margin: '15px 0px', marginRight: 62 }} />

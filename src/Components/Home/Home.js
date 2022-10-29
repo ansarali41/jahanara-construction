@@ -8,6 +8,7 @@ import Culture from './HomeComponents/Culture';
 import Commitments from './HomeComponents/Commitments';
 import PartnerHome from './HomeComponents/PartnerHome';
 import HomeAbout from './HomeComponents/HomeAbout';
+import WhatWeDo from '../WhatWeDo/WhatWeDo';
 // import NewStep from './HomeComponents/NewStep';
 
 const Home = () => {
@@ -17,10 +18,11 @@ const Home = () => {
     return (
         <div className="container mt-5 pt-3">
             <Banner />
+            <HomeAbout />
             <Welcome />
+            <WhatWeDo />
             <MissionVisions />
             <Culture />
-            <HomeAbout />
             <Commitments />
             <PartnerHome />
             <Review />

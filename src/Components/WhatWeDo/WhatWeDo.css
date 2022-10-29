@@ -1,0 +1,35 @@
+#how-we-do {
+    color: #ffffff;
+}
+#how-we-do h4 {
+    text-align: left !important;
+}
+#how-we-do .how-bg-img {
+    background-image: url('../../images/what-we-do.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 300px 0;
+}
+#how-we-do:hover .how-bg-img {
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+}
+#how-we-do .how-contents {
+    padding: 60px 30px;
+    background: #04adef;
+}
+
+#how-we-do .how-contents ul li {
+    padding-left: 50px;
+    position: relative;
+    margin-bottom: 26px;
+}
+#how-we-do .how-contents ul li:before {
+    font-family: FontAwesome;
+    content: '\f209';
+    position: absolute;
+    font-size: 39px;
+    color: #ffffff;
+    left: 0;
+}
