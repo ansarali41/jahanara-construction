@@ -8,7 +8,6 @@ import { useLocation } from 'react-router-dom';
 
 const Introduction = () => {
     let location = useLocation();
-    console.log(location.pathname);
     const introStyle = {
         lightOnIcon: {
             maxWidth: 60,
