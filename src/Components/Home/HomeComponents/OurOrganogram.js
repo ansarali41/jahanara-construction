@@ -25,7 +25,7 @@ const OurOrganogram = () => {
             </div>
             <div className="d-flex justify-content-center mt-4 mb-1">
                 <p className="lead text-center" style={Style.para}>
-                    <strong>M/s Jahanara Construction & Supllier</strong> Company have their own resident facility for their employee, so that they couldn't face any trouble to
+                    <strong>M/s Jahanara Construction & Supplier</strong> Company have their own resident facility for their employee, so that they couldn't face any trouble to
                     collect them
                 </p>
             </div>

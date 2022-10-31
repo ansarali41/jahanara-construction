@@ -110,13 +110,13 @@ const QualityPlan = () => {
                 {/* details */}
                 <div className="m-5 px-5">
                     <h5 style={{ color: 'red', fontWeight: 'bold' }} className="lead">
-                        M/s Jahanara Construction & Supllier Company quality management system and quality assurance procedures as follows:
+                        M/s Jahanara Construction & Supplier Company quality management system and quality assurance procedures as follows:
                     </h5>
                     <p className="lead">
-                        M/s Jahanara Construction & Supllier implements an integrated management system covering quality, health, and safety, environmental and internal business
-                        needs. M/S Jahanara Construction & Supllier is fully committed to the implementation of this policy which is vital to our continuing success, and for the
+                        M/s Jahanara Construction & Supplier implements an integrated management system covering quality, health, and safety, environmental and internal business
+                        needs. M/S Jahanara Construction & Supplier is fully committed to the implementation of this policy which is vital to our continuing success, and for the
                         reputation and the professional satisfaction of our staff. All staff is required to implement the Quality, Safety, and Environmental policy to achieve best
-                        practice within M/S Jahanara Construction & Supllier and in the wider community.
+                        practice within M/S Jahanara Construction & Supplier and in the wider community.
                     </p>
                     <p className="lead">
                         Our business is concerned with the services in connection with the construction, operation,and maintenance of the built environment and the protection,
@@ -125,7 +125,7 @@ const QualityPlan = () => {
                     </p>
                     <p className="lead">
                         We have established and maintained an economic and effective framework for the management of processes to ensure that the services provided by M/S Jahanara
-                        Construction & Supllier Company (BD) Ltd. Remains transparent and meets the requirements of clients of international standards, legislation, and management.
+                        Construction & Supplier Company (BD) Ltd. Remains transparent and meets the requirements of clients of international standards, legislation, and management.
                     </p>
                     <p className="lead">
                         Good quality control is required to ensure high standards of workmanship and a commitment to delivering a project that is safe for users and has an

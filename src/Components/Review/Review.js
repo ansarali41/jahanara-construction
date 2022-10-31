@@ -9,7 +9,7 @@ const Review = () => {
     return (
         <div className="container bg-light pt-5">
             <div className="text-center pb-4">
-                <h1 style={{ color: '#05aeef' }}>OUR SUPLLIER EXPERIENCE</h1>
+                <h1 style={{ color: '#05aeef' }}>OUR SUPPLIER EXPERIENCE</h1>
                 <div className="d-flex justify-content-center mt-2">
                     <div style={{ width: '170px', height: 8, background: 'black' }}></div>
                 </div>

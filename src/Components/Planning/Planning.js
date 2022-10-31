@@ -14,7 +14,7 @@ const data = [
 const Planning = () => {
     const Style = {
         icon: {
-            width: 110,
+            width: 80,
         },
     };
     useEffect(() => {
@@ -25,12 +25,12 @@ const Planning = () => {
             {/* 1st row */}
             <div className="row d-flex justify-content-center">
                 {/* img section */}
-                <div className="col-md-6">
+                <div className="col-md-6 ">
                     <img src={planningImg} alt="" className="img-fluid" />
                 </div>
                 {/* text section */}
-                <div className="col-md-6 p-5">
-                    <div className="d-flex justify-content-center">
+                <div className="col-md-6 px-5">
+                    <div className="d-flex justify-content-center pt-3">
                         <img src={planningIcon} alt="" style={Style.icon} />
                     </div>
                     <h1>

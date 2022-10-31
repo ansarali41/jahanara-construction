@@ -21,13 +21,13 @@
 }
 
 #how-we-do .how-contents ul li {
-    padding-left: 50px;
+    padding-left: 15px;
     position: relative;
     margin-bottom: 26px;
 }
 #how-we-do .how-contents ul li:before {
-    font-family: FontAwesome;
-    content: '\f209';
+    /* font-family: FontAwesome; */
+    /* content: '\f209'; */
     position: absolute;
     font-size: 39px;
     color: #ffffff;

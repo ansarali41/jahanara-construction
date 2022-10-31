@@ -29,7 +29,7 @@ const Introduction = () => {
                 </div>
                 <div>
                     <p className="lead">
-                        M/s Jahanara Construction & Supllier company started its journey from the day of commencement of the company in 2012 by the hand of its owner Md.
+                        M/s Jahanara Construction & Supplier company started its journey from the day of commencement of the company in 2012 by the hand of its owner Md.
                         Barkatullah Sagor along with a group of talented, creative and trained personnel with a vision and mission to serve in the advancement and development of
                         construction sector and to provide the highest quality construction on schedule and within budget.
                     </p>

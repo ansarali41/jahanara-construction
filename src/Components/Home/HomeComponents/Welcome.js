@@ -37,13 +37,13 @@ const Welcome = () => {
 
             <div style={welcomeStyle.paragraphContainer}>
                 <p className=" lh-lg pb-5 mb-5 lead" style={welcomeStyle.wordSpace}>
-                    M/S Jahanara Construction & Supllier. has established the tradition of 'Best management practices ' in the construction industry through integrity,
-                    trustworthiness and high-quality work. In its business practices, M/s Jahanara Construction & Supllier. has consistently demonstrated two key features;
-                    innovation and sustainability. The strength of M/s Jahanara Construction & Supllier. lies in its long-standing experience, the higher level of professionalism,
+                    M/S Jahanara Construction & Supplier. has established the tradition of 'Best management practices ' in the construction industry through integrity,
+                    trustworthiness and high-quality work. In its business practices, M/s Jahanara Construction & Supplier. has consistently demonstrated two key features;
+                    innovation and sustainability. The strength of M/s Jahanara Construction & Supplier. lies in its long-standing experience, the higher level of professionalism,
                     superior technical knowledge and excellent communication and networking skills. We value our employees and customers. With the mission, our success is driven by
                     more than building some of the most advanced facilities for our corporate, institutional and government clients. More and more our clients are turing to us for
                     our distinctive ability to implement innovative project management techniques and to serve as a reliable provider of knowledge-driven solution for their complex
-                    construction project. In the end, I would like to request you to continue having faith in M/s Jahanara Construction & Supllier. And we promise to be with you
+                    construction project. In the end, I would like to request you to continue having faith in M/s Jahanara Construction & Supplier. And we promise to be with you
                     for all your construction needs.
                 </p>
             </div>

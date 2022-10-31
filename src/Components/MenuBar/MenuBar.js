@@ -16,7 +16,7 @@ function MenuBar() {
                 </LinkTo>
 
                 <h6 className="text-center px-2 heading-title">
-                    M/S JAHANARA CONSTRUCTION <br /> & SUPLLIER
+                    M/S JAHANARA CONSTRUCTION <br /> & SUPPLIER
                 </h6>
 
                 {/* </Navbar.Brand> */}

@@ -56,8 +56,8 @@ const MissionVisions = () => {
                     satisfaction. To continually deliver excellent value & innovative construction solutions to meet our clients' requirements.
                 </p>
                 <p className="lead">
-                    Using modern principles and sophisticated technologies, Rs International Company envisions being the primary preference at all times both nationally and
-                    globally, for their renowned excellence, quality, performance and reliability in all types of constructions.
+                    Using modern principles and sophisticated technologies, M/s Jahanara Construction & Supplier envisions being the primary preference at all times both nationally
+                    and globally, for their renowned excellence, quality, performance and reliability in all types of constructions.
                 </p>
             </div>
         </div>

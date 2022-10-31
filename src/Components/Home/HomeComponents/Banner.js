@@ -32,7 +32,7 @@ const Banner = () => {
                         <div style={Style.bannerStyle} className="d-flex align-items-end justify-content-center">
                             <div className="text-white" style={Style.paragraphContainer}>
                                 <h1 className="header-title">M/S JAHANARA</h1>
-                                <p className="font-weight-bold">CONSTRUCTION & SUPLLIER</p>
+                                <p className="font-weight-bold">CONSTRUCTION & SUPPLIER</p>
                                 <div className="d-flex justify-content-center">
                                     <LinkTo to="/about">
                                         <Button variant="warning">About Us</Button>
@@ -49,10 +49,10 @@ const Banner = () => {
                         <div style={Style.bannerStyle} className="d-flex align-items-end justify-content-center">
                             <div className="text-warning " style={Style.paragraphContainer}>
                                 <h1 className="header-title">M/S JAHANARA</h1>
-                                <p className="font-weight-bold">CONSTRUCTION & SUPLLIER</p>
+                                <p className="font-weight-bold">CONSTRUCTION & SUPPLIER</p>
                                 <div className="d-flex justify-content-center">
-                                    <LinkTo to="/contact-us">
-                                        <Button variant="warning">Contact Us</Button>
+                                    <LinkTo to="/about">
+                                        <Button variant="warning">About Us</Button>
                                     </LinkTo>
                                 </div>
                             </div>
@@ -66,10 +66,10 @@ const Banner = () => {
                         <div style={Style.bannerStyle} className="d-flex align-items-end justify-content-center">
                             <div className="text-white" style={Style.paragraphContainer}>
                                 <h1 className="header-title">M/S JAHANARA</h1>
-                                <p className="font-weight-bold">CONSTRUCTION & SUPLLIER</p>
+                                <p className="font-weight-bold">CONSTRUCTION & SUPPLIER</p>
                                 <div className="d-flex justify-content-center">
-                                    <LinkTo to="/contact-us">
-                                        <Button variant="warning">Contact Us</Button>
+                                    <LinkTo to="/about">
+                                        <Button variant="warning">About Us</Button>
                                     </LinkTo>
                                 </div>
                             </div>
@@ -83,10 +83,10 @@ const Banner = () => {
                         <div style={Style.bannerStyle} className="d-flex align-items-end justify-content-center">
                             <div className="text-white" style={Style.paragraphContainer}>
                                 <h1 className="header-title">M/S JAHANARA</h1>
-                                <p className="font-weight-bold">CONSTRUCTION & SUPLLIER</p>
+                                <p className="font-weight-bold">CONSTRUCTION & SUPPLIER</p>
                                 <div className="d-flex justify-content-center">
-                                    <LinkTo to="/contact-us">
-                                        <Button variant="warning">Contact Us</Button>
+                                    <LinkTo to="/about">
+                                        <Button variant="warning">About Us</Button>
                                     </LinkTo>
                                 </div>
                             </div>
@@ -100,10 +100,10 @@ const Banner = () => {
                         <div style={Style.bannerStyle} className="d-flex align-items-end justify-content-center">
                             <div className="text-white" style={Style.paragraphContainer}>
                                 <h1 className="header-title">M/S JAHANARA</h1>
-                                <p className="font-weight-bold">CONSTRUCTION & SUPLLIER</p>
+                                <p className="font-weight-bold">CONSTRUCTION & SUPPLIER</p>
                                 <div className="d-flex justify-content-center">
-                                    <LinkTo to="/contact-us">
-                                        <Button variant="warning">Contact Us</Button>
+                                    <LinkTo to="/about">
+                                        <Button variant="warning">About Us</Button>
                                     </LinkTo>
                                 </div>
                             </div>
