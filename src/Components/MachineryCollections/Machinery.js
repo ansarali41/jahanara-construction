@@ -1,4 +1,5 @@
 import React from 'react';
+import Jump from 'react-reveal/Jump';
 import MyDivider from '../../Common/Components/MyDivider';
 import machinery_collections from '../../images/machinery_collections.png';
 
@@ -11,7 +12,9 @@ const Machinery = () => {
     return (
         <div className="my-5">
             <div className="text-center">
-                <h1 style={Style.title}>Our Machinery Collections</h1>
+                <Jump>
+                    <h1 style={Style.title}>Our Machinery Collections</h1>
+                </Jump>
             </div>
             <div className="d-flex justify-content-center">
                 <MyDivider width={100} height="10px" />

@@ -1,6 +1,7 @@
 import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import HeadShake from 'react-reveal/HeadShake';
 import './Footer.css';
 
 const Footer = () => {
@@ -13,15 +14,23 @@ const Footer = () => {
                         <div style={{ height: '2px', background: '#fff', margin: '15px 0px', marginRight: 62 }} />
                         <div className="d-flex align-items-center">
                             <FontAwesomeIcon icon={faPhone} className="icons" />
-                            <h5 className="footer-items">+880 1701-361836</h5>
+                            <HeadShake>
+                                <h5 className="footer-items">+8801710208508</h5>
+                            </HeadShake>
                         </div>
                         <div className="d-flex align-items-center">
                             <FontAwesomeIcon icon={faEnvelope} className="icons" />
-                            <h5 className="footer-items">jahanara.group7@gmail.com</h5>
+                            <HeadShake>
+                                <a href="mailto:info@jahanaragroupbd.com" className="footer-items mail-style">
+                                    info@jahanaragroupbd.com
+                                </a>
+                            </HeadShake>
                         </div>
                         <div className="d-flex align-items-center">
                             <FontAwesomeIcon icon={faLocationDot} className="icons" />
-                            <h5 className="footer-items">H#1352, Adjacent of Poniout bypass Road Brahmanbaria</h5>
+                            <HeadShake>
+                                <h5 className="footer-items">H#1352, Adjacent of Poniout bypass Road Brahmanbaria</h5>
+                            </HeadShake>
                         </div>
                     </div>
                 </div>
@@ -40,7 +49,7 @@ const Footer = () => {
             </div>
             <div className="d-flex justify-content-center copy-right-text pt-2">
                 <p className="bottom-text">
-                    <small>All Rights Reserved ©{new Date().getFullYear()} AHIL TRADE INTERNATIONAL. </small>
+                    <small>All Rights Reserved ©{new Date().getFullYear()} M/S JAHANARA CONSTRUCTION & SUPPLIER</small>
                 </p>
             </div>
         </div>

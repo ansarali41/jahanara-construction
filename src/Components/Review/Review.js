@@ -3,13 +3,16 @@ import review1 from '../../images/0031.jpg';
 import './Review.css';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import { LightSpeed } from 'react-reveal';
 
 const Review = () => {
     const handleOnDragStart = e => e.preventDefault();
     return (
         <div className="container bg-light pt-5">
             <div className="text-center pb-4">
-                <h1 style={{ color: '#05aeef' }}>OUR SUPPLIER EXPERIENCE</h1>
+                <LightSpeed left>
+                    <h1 style={{ color: '#05aeef' }}>OUR SUPPLIER EXPERIENCE</h1>
+                </LightSpeed>
                 <div className="d-flex justify-content-center mt-2">
                     <div style={{ width: '170px', height: 8, background: 'black' }}></div>
                 </div>

@@ -8,11 +8,9 @@ const LinkTo = ({ to, children }) => {
         color: 'black',
     };
     return (
-        <div>
-            <Link to={to} style={linkStyle} className="links">
-                {children}
-            </Link>
-        </div>
+        <Link to={to} style={linkStyle} className="links">
+            {children}
+        </Link>
     );
 };
 

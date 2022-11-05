@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Jump from 'react-reveal/Jump';
 import MyDivider from '../../Common/Components/MyDivider';
 import quality_icon from '../../images/quality_icon.png';
 import Planning from '../Planning/Planning';
@@ -54,7 +55,9 @@ const QualityPlan = () => {
         <div className="container mt-5 pt-5 bg-light">
             <div className="d-flex justify-content-center">
                 <div className="text-center">
-                    <h1>Quality Plan</h1>
+                    <Jump>
+                        <h1>Quality Plan</h1>
+                    </Jump>
                     <p className="lead text-muted">
                         <em>Typically, the Quality Plan will include:</em>
                     </p>

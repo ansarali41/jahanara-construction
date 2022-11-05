@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRightLong } from '@fortawesome/free-solid-svg-icons';
 import LinkTo from '../../../Common/Components/LinkTo';
 import { useLocation } from 'react-router-dom';
+import Jump from 'react-reveal/Jump';
+import HeadShake from 'react-reveal/HeadShake';
 
 const Introduction = () => {
     let location = useLocation();
@@ -25,7 +27,9 @@ const Introduction = () => {
             <div className="col-sm-12 col-md-12 col-lg-6">
                 <div className="d-flex align-items-center py-3">
                     <img src={lightOn} alt="" style={introStyle.lightOnIcon} />
-                    <h1>Introduction</h1>
+                    <Jump>
+                        <h1>Introduction</h1>
+                    </Jump>
                 </div>
                 <div>
                     <p className="lead">
@@ -51,12 +55,14 @@ const Introduction = () => {
                         team by going through an intense selection process who are confident to achieve our goals and objectives with full accuracy.
                     </p>
                     {location.pathname === '/about' ? null : (
-                        <h5 className="font-weight-bold">
-                            <LinkTo to="/about">
-                                <FontAwesomeIcon icon={faRightLong} style={{ marginRight: 10 }} />
-                                LEARN MORE ABOUT US
-                            </LinkTo>
-                        </h5>
+                        <HeadShake>
+                            <h5 className="font-weight-bold">
+                                <LinkTo to="/about">
+                                    <FontAwesomeIcon icon={faRightLong} style={{ marginRight: 10 }} />
+                                    LEARN MORE ABOUT US
+                                </LinkTo>
+                            </h5>
+                        </HeadShake>
                     )}
                 </div>
             </div>

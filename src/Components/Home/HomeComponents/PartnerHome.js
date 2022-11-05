@@ -3,6 +3,7 @@ import handsLogo from '../../../images/hands-logo.png';
 import afconsLogo from '../../../images/afcons-logo.png';
 import partners from '../../../images/partners.png';
 import MyDivider from '../../../Common/Components/MyDivider';
+import { Bounce } from 'react-reveal';
 const PartnerHome = () => {
     const Style = {
         main: {
@@ -30,9 +31,11 @@ const PartnerHome = () => {
             </div>
 
             <div className="d-flex justify-content-center">
-                <h2 style={Style.bannerTitle} className="pb-2">
-                    Our Existing Partner
-                </h2>
+                <Bounce left>
+                    <h2 style={Style.bannerTitle} className="pb-2">
+                        Our Existing Partner
+                    </h2>
+                </Bounce>
             </div>
             <div className="mx-5 mb-5 px-5">
                 <MyDivider width="100%" height="2px" background="white" />

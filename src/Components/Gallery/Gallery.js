@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Jump from 'react-reveal/Jump';
 import { Card, Col, Row } from 'react-bootstrap';
 import A from '../../images/gallery/A.JPG';
 import B from '../../images/gallery/B.JPG';
@@ -53,7 +54,9 @@ const Gallery = () => {
         <div className="container mt-5 pt-4 bg-light">
             {/* title section */}
             <div className="text-center pt-4">
-                <h1>Photos Gallery</h1>
+                <Jump>
+                    <h1>Photos Gallery</h1>
+                </Jump>
                 <div className="d-flex justify-content-center mt-2">
                     <div style={{ width: '11%', height: 8, background: 'rgb(5, 174, 239)' }}></div>
                 </div>

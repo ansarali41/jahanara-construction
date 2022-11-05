@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import PlanningCard from '../../Common/PlanningCard';
 import planningImg from '../../images/planning.jpg';
 import planningIcon from '../../images/planning-icon.png';
+import Jump from 'react-reveal/Jump';
 
 // database
 const data = [
@@ -33,10 +34,12 @@ const Planning = () => {
                     <div className="d-flex justify-content-center pt-3">
                         <img src={planningIcon} alt="" style={Style.icon} />
                     </div>
-                    <h1>
-                        Strategic <br />
-                        <strong>Planning</strong>
-                    </h1>
+                    <Jump>
+                        <h1>
+                            Strategic <br />
+                            <strong>Planning</strong>
+                        </h1>
+                    </Jump>
                     <p className="lead">
                         No good deal lasts forever. Because your market customers and even products and services change, you need a strategic plan that will help your company adapt
                         and grow. Strategic planning helps senior executives envision and develop the company 's future.

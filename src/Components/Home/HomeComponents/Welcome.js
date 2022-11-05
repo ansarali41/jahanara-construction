@@ -1,4 +1,5 @@
 import React from 'react';
+import { TypeAnimation } from 'react-type-animation';
 // import companyImg from '../../../images/company-logo.jpg';
 import ProprietorImg from '../../../images/Proprietor_img.png';
 
@@ -25,7 +26,7 @@ const Welcome = () => {
             <div className="d-flex justify-content-between align-items-center py-5 pb-1">
                 <div>
                     <h1 style={welcomeStyle.textColor}>Welcome</h1>
-                    <h2 className="">Words From Our Founder</h2>
+                    <TypeAnimation sequence={['Words From Our Founder', 1000, '']} speed={75} wrapper="h2" repeat={Infinity} />
                     {/* divider */}
                     <div className="d-flex mt-2">
                         <div style={{ width: '80px', height: 8, background: 'rgb(5, 174, 239)' }} />

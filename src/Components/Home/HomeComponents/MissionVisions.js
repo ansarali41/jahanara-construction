@@ -3,6 +3,7 @@ import MyDivider from '../../../Common/Components/MyDivider';
 // import missionBanner from '../../../images/mission_banner.jpg';
 import missionIcon from '../../../images/mission_icon.png';
 import visionIcon from '../../../images/vision_icon.png';
+import Jump from 'react-reveal/Jump';
 
 const MissionVisions = () => {
     const missionStyle = {
@@ -19,7 +20,9 @@ const MissionVisions = () => {
             <div className="d-flex justify-content-center pb-3 pt-1">
                 <div className="d-flex align-items-center">
                     <img src={missionIcon} alt="" className="img-fluid w-25" style={missionStyle.icon} />
-                    <h1>Mission</h1>
+                    <Jump>
+                        <h1>Mission</h1>
+                    </Jump>
                 </div>
             </div>
             <div>
@@ -45,7 +48,9 @@ const MissionVisions = () => {
                 <div className="d-flex justify-content-center py-3">
                     <div className="d-flex align-items-center">
                         <img src={visionIcon} alt="" className="img-fluid w-25" style={missionStyle.icon} />
-                        <h1>Visions</h1>
+                        <Jump>
+                            <h1>Visions</h1>
+                        </Jump>
                     </div>
                 </div>
                 <div className="pb-3">
