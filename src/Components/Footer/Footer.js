@@ -1,3 +1,4 @@
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
@@ -21,7 +22,7 @@ const Footer = () => {
                         <div className="d-flex align-items-center">
                             <FontAwesomeIcon icon={faEnvelope} className="icons" />
                             <HeadShake>
-                                <a href="mailto:info@jahanaragroupbd.com" className="footer-items mail-style">
+                                <a href="mailto:info@jahanaragroupbd.com" className="footer-items a-link-style">
                                     info@jahanaragroupbd.com
                                 </a>
                             </HeadShake>
@@ -30,6 +31,14 @@ const Footer = () => {
                             <FontAwesomeIcon icon={faLocationDot} className="icons" />
                             <HeadShake>
                                 <h5 className="footer-items">H#1352, Adjacent of Poniout bypass Road Brahmanbaria</h5>
+                            </HeadShake>
+                        </div>
+                        <div className="d-flex align-items-center">
+                            <FontAwesomeIcon icon={faFacebook} className="icons" />
+                            <HeadShake>
+                                <a className="footer-items a-link-style" href="https://www.facebook.com/jahanaragroup24" target="_blank" rel="noreferrer">
+                                    Facebook Page
+                                </a>
                             </HeadShake>
                         </div>
                     </div>
